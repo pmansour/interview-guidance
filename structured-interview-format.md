@@ -25,10 +25,10 @@ Interviewers will often give a vague initial problem statement to see how well t
 - Make hidden assumptions.
 - Over-focus on edge cases.
 
-### 2. List some test cases
+### 2. List test cases
 *[Timebox to ~5min]*
 
-Writing test cases early is the best way to ensure you've done the previous step correctly. Specifically, good test cases will help you identify the most difficult parts of the problem, give you a clear contract to design for, and show good initiative and critical thinking. The last thing you want is to start testing after you've implemented something and realize you've solved the wrong problem.
+Coming up with test cases early is the best way to ensure you've done the [previous step](#1-understand-the-problem) correctly. Specifically, good test cases will help you identify the most difficult parts of the problem, give you a clear contract to design for, and show good initiative and critical thinking. The last thing you want is to start testing after you've implemented something and realize you've solved the wrong problem.
 
 **Do**:
 - Add test cases for the common use-case and a handful of edge cases.
@@ -95,3 +95,9 @@ A good interviewer is not out to get you, but wants to accurately record your be
 **Don't**:
 - Overly rely on your interviewer. It's okay to use your interviewer as a sounding board and get their thoughts every now and then, but make sure you're still showing critical thinking and coming up with independent solutions.
 - Stay quiet for a few minutes straight. Even if you need quiet time to think, make sure to give periodic updates to your interview on what's going on in your mind.
+
+### Losing track of time
+Most candidates I've interviewed probably would have solved the problem given enough time. The challenge is that they don't have unlimited time -- part of what you're showing in an interview is that you have an efficient process to solve problems. Some companies (e.g. Google) even have an explicit rubric for efficacy with regard to time. It's almost always better to complete a solution that's mostly good but could use small improvements, rather than perfecting some small or unimportant parts while leaving critical pieces of the problem unsolved.
+
+**Do**:
+- Timebox various parts of the 
