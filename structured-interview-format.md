@@ -89,15 +89,15 @@ A good interviewer is not out to get you, but wants to accurately record your be
 
 **Do**:
 - Ask for a hint if you're stuck.
-  - Make sure to clarify your thought process until that point, the ways you can go from there, and why you don't think any of them would work.
-- State your assumptions to the interviewer.
-- Communicate your thought process as you go.
+    Make sure to clarify your thought process until that point, the ways you can go from there, and why you don't think any of them would work.
+- Clearly communicate your assumptions.
+- Talk through your thought process as you go.
 - Seek an ACK before you commit to a high-level approach.
 - Follow your interviewer's lead where it differs from the steps above.
-  - For example, your interviewer might want you to split your time over implementing multiple solutions.
+    For example, your interviewer might want you to split your time over implementing multiple solutions.
 
 **Don't**:
-- Overly rely on your interviewer. It's okay to use your interviewer as a sounding board and get their thoughts every now and then, but make sure you're still showing critical thinking and coming up with independent solutions.
+- Be lazy. It's okay to use your interviewer as a sounding board and get their thoughts every now and then, but make sure you're still showing critical thinking and coming up with independent solutions.
 - Stay quiet for a few minutes straight. Even if you need quiet time to think, make sure to give periodic updates to your interview on what's going on in your mind.
 
 ### Losing track of time
