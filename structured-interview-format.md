@@ -1,19 +1,19 @@
-## Overview
-### Background
+# Overview
+## Background
 I've interviewed at dozens of companies over my career. As an interviewee, I've found that practicing the following structured format helps me succeed more consistently at tackling technical interviews at large tech companies. I've also shared this with many others who have found it useful as well.
 
 I've also interviewed over 50 candidates in my professional career, mostly at Google but with some at Microsoft and a startup. As an interviewer, I'm often looking for a positive *signal* that a candidate has certain qualities, such as strong communication skills, problem solving, programming, and testing. I've found that candidates who approach interviews using a structured format have a much easier way showing positive signals than those who don't.
 
-### Setting
+## Setting
 This process is tailored for 45-minute tech interviews where most of the interview time is spent on one design or programming problem, potentially with follow-ups. You may need to use a shorter version of this process (or omit certain parts) if your interview is shorter, or if you're expecting several short, unrelated questions.
 
-### Goals
+## Goals
 The goal of a technical interview is to convince your interviewer that you have certain qualities they're looking for. The goal is *not* simply to show that you can find an optimal solution to some esoteric problem. The biggest artefact of your interview is the impression that your interviewer has about your communication, problem-solving approach and ability to write code. Even if you have those qualities, they won't do much good if you can't show them during the interview, so it pays to invest in a good process that showcases these skills and gives you the best chance at success.
 
-## Process
+# Process
 Once you're given an initial problem statement, the process is as follows:
 
-### 1. Understand the problem
+## 1. Understand the problem
 *[Timebox to ~5-10min]*
 
 Interviewers will often give a vague initial problem statement to see how well the candidate deals with ambiguity and verifies their assumptions. This is your opportunity to make sure you have a good grasp of the problem before you dive deep into solutions.
@@ -28,7 +28,7 @@ Interviewers will often give a vague initial problem statement to see how well t
 - Make hidden assumptions.
 - Over-focus on edge cases.
 
-### 2. List test cases
+## 2. List test cases
 *[Timebox to ~5min]*
 
 Coming up with test cases early is the best way to ensure you've done the [previous step](#1-understand-the-problem) correctly. Specifically, good test cases will help you identify the most difficult parts of the problem, give you a clear contract to design for, and show good initiative and critical thinking. The last thing you want is to start testing after you've implemented something and realize you've solved the wrong problem.
@@ -41,7 +41,7 @@ Coming up with test cases early is the best way to ensure you've done the [previ
 - Be vague or hand-wavy about your tests (e.g. describing inputs without expected outputs).
 - Spend too much time trying to capture every single edge case.
 
-### 3. Explore multiple design ideas
+## 3. Explore multiple design ideas
 *[Timebox to 10 min]*
 
 It's rare that somebody would come up with an optimal solution to a problem from the start. Usually, it's better to brainstorm a few possible solutions (including a "naive" soultion) before committing the rest of your time to implementing a specific one. Besides, once you have a few high-level solutions down, it's easier to compare apples-to-apples.
@@ -56,7 +56,7 @@ It's rare that somebody would come up with an optimal solution to a problem from
 - Spend too much time exploring esoteric variations. Once you have 2 or 3 solid approaches, consider picking one and moving on.
 - Get too deep in the weeds of any particular solution, unless the details are relevant for the big-O notation.
 
-### 4. Implement one solution
+## 4. Implement one solution
 *[Timebox to 15-20 min]*
 
 Once you find a promising high-level solution, try to divide the problem into smaller blocks and implement those. If your code will be large or complex, it may be helpful to start by writing your solution in pseudo-code, then turn it into an outer function that calls other smaller functions which each implement a smaller piece of the solution.
@@ -71,7 +71,7 @@ Once you find a promising high-level solution, try to divide the problem into sm
 
     Get most of your solution working first before you start optimizing small things.
 
-### 5. Test your code
+## 5. Test your code
 *[Timebox to ~10 min]*
 
 Once you've implemented your solution, take the time to look for any obvious bugs or mistakes, then start to run through the test cases you've written down from step #1. Be detail-oriented with at least your first test case, and avoid skimming large parts whose answer you think you know.
@@ -86,8 +86,8 @@ Once you've implemented your solution, take the time to look for any obvious bug
 
     If there's a bug you missed there, this shows as a lack of attention to detail.
 
-## Common pitfalls
-### Not utilizing your interviewer
+# Common pitfalls
+## Not utilizing your interviewer
 A good interviewer is not out to get you, but wants to accurately record your best performance. In my experience as an interviewer, most people don't utilize the interviewer enough, and as a result they miss opportunities for help (at best), or give off the vibe that you're defensive.
 
 **Do**:
@@ -111,7 +111,7 @@ A good interviewer is not out to get you, but wants to accurately record your be
 
     Even if you need quiet time to think, make sure to give periodic updates to your interview on what's going on in your mind.
 
-### Losing track of time
+## Losing track of time
 Most candidates I've interviewed probably would have solved the problem given enough time. The challenge is that they don't have unlimited time -- part of what you're showing in an interview is that you have an efficient process to solve problems. Some companies (e.g. Google) even have an explicit rubric for efficacy with regard to time.
 
 It's almost always better to complete a solution that's mostly good but could use small improvements, rather than perfecting some small or unimportant parts while leaving critical pieces of the problem unsolved.
