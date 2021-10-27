@@ -112,4 +112,4 @@ It's almost always better to complete a solution that's mostly good but could us
 
 **Don't**:
 - Panic if you're behind schedule. Instead, work with your interviewer to prioritize the most important parts of the problem and skip others.
-- Entertain black-or-white thinking. You don't need to implement the optimal solution to get an offer; you only need to convince your interviewer that you can problem solve and code.
+- Entertain black-or-white thinking (e.g. "if I don't get the optimal solution I won't get an offer").
