@@ -2,7 +2,7 @@
 ### Background
 As an interviewee, I've found the following structured format helpful when tackling technical interviews at large tech companies. I've also shared this with many others who have found it useful as well.
 
-As an interviewer, I find that this format makes it really easy to find signal on the main points that I'm looking for, such as communication skills, problem solving, programming, and testing.
+As an interviewer, I'm often looking for a positive *signal* that a candidate has certain qualities, such as strong communication skills, problem solving, programming, and testing. Even if somebody has those qualities, it doesn't do them much good if they can't show this during the interview. I've found that candidates who approach interviews using a structured format have a much easier way showing positive signals than those who don't.
 
 ### Setting
 This process is tailored for 45-minute tech interviews where most of the interview time is spent on one design or programming problem, potentially with follow-ups. You may need to use a shorter version of this process (or omit certain parts) if your interview is shorter, or if you're expecting several short, unrelated questions.
