@@ -1,11 +1,14 @@
 ## Overview
 ### Background
-As an interviewee, I've found the following structured format helpful when tackling technical interviews at large tech companies. I've also shared this with many others who have found it useful as well.
+I've interviewed at dozens of companies over my career. As an interviewee, I've found that practicing the following structured format helps me succeed more consistently at tackling technical interviews at large tech companies. I've also shared this with many others who have found it useful as well.
 
-As an interviewer, I'm often looking for a positive *signal* that a candidate has certain qualities, such as strong communication skills, problem solving, programming, and testing. Even if somebody has those qualities, it doesn't do them much good if they can't show this during the interview. I've found that candidates who approach interviews using a structured format have a much easier way showing positive signals than those who don't.
+I've also interviewed over 50 candidates in my professional career, mostly at Google but with some at Microsoft and a startup. As an interviewer, I'm often looking for a positive *signal* that a candidate has certain qualities, such as strong communication skills, problem solving, programming, and testing. I've found that candidates who approach interviews using a structured format have a much easier way showing positive signals than those who don't.
 
 ### Setting
 This process is tailored for 45-minute tech interviews where most of the interview time is spent on one design or programming problem, potentially with follow-ups. You may need to use a shorter version of this process (or omit certain parts) if your interview is shorter, or if you're expecting several short, unrelated questions.
+
+### Goals
+The goal of a technical interview is to convince your interviewer that you have certain qualities they're looking for. The goal is *not* simply to show that you can find an optimal solution to some esoteric problem. The biggest artefact of your interview is the impression that your interviewer has about your communication, problem-solving approach and ability to write code. Even if you have those qualities, they won't do much good if you can't show them during the interview, so it pays to invest in a good process that showcases these skills and gives you the best chance at success.
 
 ## Process
 Once you're given an initial problem statement, the process is as follows:
@@ -85,19 +88,28 @@ Once you've implemented your solution, take the time to look for any obvious bug
 A good interviewer is not out to get you, but wants to accurately record your best performance. In my experience as an interviewer, most people don't utilize the interviewer enough, and as a result they miss opportunities for help (at best), or give off the vibe that you're defensive.
 
 **Do**:
-- Ask for a hint if you're stuck. Make sure to clarify your thought process until that point, the ways you can go from there, and why you don't think any of them would work.
-- State your assumptions to the interviewer, and ask them for a quick ACK.
+- Ask for a hint if you're stuck.
+  - Make sure to clarify your thought process until that point, the ways you can go from there, and why you don't think any of them would work.
+- State your assumptions to the interviewer.
 - Communicate your thought process as you go.
-- Get their quick ACK before you commit to a high-level approach.
-- Follow your interviewer's lead, even if it differs from the steps above.
-  - For example, your interviewer might ask you to implement multiple solutions.
+- Seek an ACK before you commit to a high-level approach.
+- Follow your interviewer's lead where it differs from the steps above.
+  - For example, your interviewer might want you to split your time over implementing multiple solutions.
 
 **Don't**:
 - Overly rely on your interviewer. It's okay to use your interviewer as a sounding board and get their thoughts every now and then, but make sure you're still showing critical thinking and coming up with independent solutions.
 - Stay quiet for a few minutes straight. Even if you need quiet time to think, make sure to give periodic updates to your interview on what's going on in your mind.
 
 ### Losing track of time
-Most candidates I've interviewed probably would have solved the problem given enough time. The challenge is that they don't have unlimited time -- part of what you're showing in an interview is that you have an efficient process to solve problems. Some companies (e.g. Google) even have an explicit rubric for efficacy with regard to time. It's almost always better to complete a solution that's mostly good but could use small improvements, rather than perfecting some small or unimportant parts while leaving critical pieces of the problem unsolved.
+Most candidates I've interviewed probably would have solved the problem given enough time. The challenge is that they don't have unlimited time -- part of what you're showing in an interview is that you have an efficient process to solve problems. Some companies (e.g. Google) even have an explicit rubric for efficacy with regard to time.
+
+It's almost always better to complete a solution that's mostly good but could use small improvements, rather than perfecting some small or unimportant parts while leaving critical pieces of the problem unsolved.
 
 **Do**:
-- Timebox various parts of the 
+- Timebox various parts of the process above (see recommendations).
+- Prefer incremental progress to perfection.
+- Consider wearing a wrist-watch to the interview.
+
+**Don't**:
+- Panic if you're behind schedule. Instead, work with your interviewer to prioritize the most important parts of the problem and skip others.
+- Entertain black-or-white thinking. You don't need to implement the optimal solution to get an offer; you only need to convince your interviewer that you can problem solve and code.
