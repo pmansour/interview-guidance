@@ -1,3 +1,5 @@
+{:toc}
+
 # Overview
 ## Background
 I've interviewed at dozens of companies over my career. As an interviewee, I've found that practicing the following structured format helps me succeed more consistently at tackling technical interviews at large tech companies. I've also shared this with many others who have found it useful as well.
