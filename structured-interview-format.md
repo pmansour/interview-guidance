@@ -67,7 +67,9 @@ Once you find a promising high-level solution, try to divide the problem into sm
 - If you forget a library function signature, either ask your interviewer or just make up a reasonable signature and write it on the side.
 
 **Don't**:
-- Spend too much time over-optimizing unnecessary details. Get most of your solution working first before you start optimizing small things.
+- Spend too much time over-optimizing unnecessary details.
+
+    Get most of your solution working first before you start optimizing small things.
 
 ### 5. Test your code
 *[Timebox to ~10 min]*
@@ -81,7 +83,8 @@ Once you've implemented your solution, take the time to look for any obvious bug
 
 **Don't**:
 - Skip some parts of the code that you haven't run through previously.
-  - If there's a bug you missed there, this shows as a lack of attention to detail.
+
+    If there's a bug you missed there, this shows as a lack of attention to detail.
 
 ## Common pitfalls
 ### Not utilizing your interviewer
@@ -89,16 +92,24 @@ A good interviewer is not out to get you, but wants to accurately record your be
 
 **Do**:
 - Ask for a hint if you're stuck.
-    Make sure to clarify your thought process until that point, the ways you can go from there, and why you don't think any of them would work.
+
+    If you do, make sure to clarify your thought process until that point, the ways you can go from there, and why you don't think any of them would work.
+
 - Clearly communicate your assumptions.
 - Talk through your thought process as you go.
 - Seek an ACK before you commit to a high-level approach.
 - Follow your interviewer's lead where it differs from the steps above.
+
     For example, your interviewer might want you to split your time over implementing multiple solutions.
 
 **Don't**:
-- Be lazy. It's okay to use your interviewer as a sounding board and get their thoughts every now and then, but make sure you're still showing critical thinking and coming up with independent solutions.
-- Stay quiet for a few minutes straight. Even if you need quiet time to think, make sure to give periodic updates to your interview on what's going on in your mind.
+- Be lazy.
+
+    It's okay to use your interviewer as a sounding board and get their thoughts every now and then, but make sure you're still showing critical thinking and coming up with independent solutions.
+
+- Stay quiet for more than 2-3 minutes.
+
+    Even if you need quiet time to think, make sure to give periodic updates to your interview on what's going on in your mind.
 
 ### Losing track of time
 Most candidates I've interviewed probably would have solved the problem given enough time. The challenge is that they don't have unlimited time -- part of what you're showing in an interview is that you have an efficient process to solve problems. Some companies (e.g. Google) even have an explicit rubric for efficacy with regard to time.
@@ -111,5 +122,8 @@ It's almost always better to complete a solution that's mostly good but could us
 - Consider wearing a wrist-watch to the interview.
 
 **Don't**:
-- Panic if you're behind schedule. Instead, work with your interviewer to prioritize the most important parts of the problem and skip others.
+- Panic if you're behind schedule.
+
+    Instead, work with your interviewer to prioritize the most important parts of the problem and skip others.
+
 - Entertain black-or-white thinking (e.g. "if I don't get the optimal solution I won't get an offer").
