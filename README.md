@@ -29,7 +29,7 @@ Interviewers will often give a vague initial problem statement to see how well t
 **Don't**:
 - Jump to solutions.
 - Make hidden assumptions.
-- Over-focus on edge cases (this is even more important for design problems).
+- Over-focus on edge cases, especially for design problems.
 
 ## 2. List test cases
 *[Timebox to ~5min]*
@@ -37,7 +37,7 @@ Interviewers will often give a vague initial problem statement to see how well t
 Coming up with test cases early is the best way to ensure you've done the [previous step](#1-understand-the-problem) correctly. Specifically, good test cases will help you identify the most difficult parts of the problem, give you a clear contract to design for, and show good initiative and critical thinking. The last thing you want is to start testing after you've implemented something and realize you've solved the wrong problem.
 
 **Do**:
-- Add test cases for the common use-case and a handful of important edge cases.
+- Add test cases for the common case and important edge cases.
 - Describe the test cases as a clear contract, ideally with a table of inputs --> expected outputs (or behaviors).
 
 **Don't**:
