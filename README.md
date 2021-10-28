@@ -29,7 +29,7 @@ Interviewers will often give a vague initial problem statement to see how well t
 **Don't**:
 - Jump to solutions.
 - Make hidden assumptions.
-- Over-focus on edge cases.
+- Over-focus on edge cases (this is even more important for design problems).
 
 ## 2. List test cases
 *[Timebox to ~5min]*
@@ -37,17 +37,16 @@ Interviewers will often give a vague initial problem statement to see how well t
 Coming up with test cases early is the best way to ensure you've done the [previous step](#1-understand-the-problem) correctly. Specifically, good test cases will help you identify the most difficult parts of the problem, give you a clear contract to design for, and show good initiative and critical thinking. The last thing you want is to start testing after you've implemented something and realize you've solved the wrong problem.
 
 **Do**:
-- Add test cases for the common use-case and a handful of edge cases.
+- Add test cases for the common use-case and a handful of important edge cases.
 - Describe the test cases as a clear contract, ideally with a table of inputs --> expected outputs (or behaviors).
 
 **Don't**:
 - Be vague or hand-wavy about your tests (e.g. describing inputs without expected outputs).
-- Spend too much time trying to capture every single edge case.
 
 ## 3. Explore multiple design ideas
 *[Timebox to 10 min]*
 
-It's rare that somebody would come up with an optimal solution to a problem from the start. Usually, it's better to brainstorm a few possible solutions (including a "naive" soultion) before committing the rest of your time to implementing a specific one. Besides, once you have a few high-level solutions down, it's easier to compare apples-to-apples.
+It's rare that somebody would come up with an optimal solution to a problem from the start. Usually, it's better to brainstorm a few possible solutions (including a "naive" solution) before committing the rest of your time to implementing a specific one. Besides, once you have a few high-level solutions down, it's easier to compare apples-to-apples.
 
 **Do**:
 - Try to explore at least 2 different solutions to the problem.
@@ -55,14 +54,14 @@ It's rare that somebody would come up with an optimal solution to a problem from
 - Get a quick ACK from your interviewer before committing to a solution.
 
 **Don't**:
-- Immediately discount the "naive" solution. Not only does it serve as a useful baseline to compare to, but when compared with other options, it can actually end up being the best solution according to one or more criteria (e.g. runtime, memory, simplicity).
+- Immediately discount the "naive" solution. Not only does it serve as a useful baseline to compare to, but when compared with other options, it can actually end up being the best solution according to some criteria (e.g. simplicity or memory) and not that much worse in others (e.g. runtime).
 - Spend too much time exploring esoteric variations. Once you have 2 or 3 solid approaches, consider picking one and moving on.
 - Get too deep in the weeds of any particular solution, unless the details are relevant for the big-O notation.
 
 ## 4. Implement one solution
 *[Timebox to 15-20 min]*
 
-Once you find a promising high-level solution, try to divide the problem into smaller blocks and implement those. If your code will be large or complex, it may be helpful to start by writing your solution in pseudo-code, then turn it into an outer function that calls other smaller functions which each implement a smaller piece of the solution.
+Once you find a promising high-level solution, try to divide the problem into smaller blocks and implement those. If your code will be large or complex, it may be helpful to start by writing your solution in pseudo-code, then turn it into an outer function that calls other smaller functions which each implement a smaller piece of the solution. If your code is small enough to be implemented in one function, then just do what makes sense :-)
 
 **Do**:
 - Divide large or complex functions into smaller ones with clean abstractions.
@@ -100,7 +99,6 @@ A good interviewer is not out to get you, but wants to accurately record your be
 
 - Clearly communicate your assumptions.
 - Talk through your thought process as you go.
-- Seek an ACK before you commit to a high-level approach.
 - Follow your interviewer's lead where it differs from the steps above.
 
     For example, your interviewer might want you to split your time over implementing multiple solutions.
