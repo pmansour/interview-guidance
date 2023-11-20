@@ -3,15 +3,15 @@
 
 # Overview
 ## Background
-I've interviewed at dozens of companies over my career. As an interviewee, I've found that practicing the following structured format helps me succeed more consistently at tackling technical interviews at large tech companies. I've also shared this with many others who have found it useful as well.
+**As an interview candidate**: I've interviewed at dozens of companies over my career (and gotten SWE offers at Microsoft, Apple, Salesforce, Google, Amazon, and others). In my experience, practicing the following structured format helps me succeed more consistently at tackling technical interviews at large tech companies. I've also shared this feedback with many others who've found it useful as well.
 
-I've also interviewed over 50 candidates in my professional career, mostly at Google but with some at Microsoft and a startup. As an interviewer, I'm often looking for a positive *signal* that a candidate has certain qualities, such as strong communication skills, problem solving, programming, and testing. I've found that candidates who approach interviews using a structured format have a much easier way showing positive signals than those who don't.
+**As an interviewer**: I've interviewed over 50 candidates in my professional career, mostly for positions at Google but with some at Microsoft and a startup. As an interviewer, I'm often looking for a positive *signal* that a candidate has certain qualities, such as strong communication skills, problem solving, programming, and testing. I've found that candidates who approach interviews using a structured format have a much easier way showing positive signals than those who don't.
 
 ## Setting
 This process is tailored for 45-minute tech interviews where most of the interview time is spent on one design or programming problem, potentially with follow-ups. You may need to use a shorter version of this process (or omit certain parts) if your interview is shorter, or if you're expecting several short, unrelated questions.
 
 ## Goals
-The goal of a technical interview is to convince your interviewer that you have certain qualities they're looking for. The goal is *not* simply to show that you can find an optimal solution to some esoteric problem. The biggest artefact of your interview is the impression that your interviewer has about your communication, problem-solving approach and ability to write code. Even if you have those qualities, they won't do much good if you can't show them during the interview, so it pays to invest in a good process that showcases these skills and gives you the best chance at success.
+The goal of a technical interview is to convince your interviewer that you have certain qualities they're looking for. The goal is *not* simply to show that you can find an optimal solution to some esoteric problem. *The biggest artefact of your interview is the impression that your interviewer has* about your communication, problem-solving approach and ability to write code. If you have those qualities, you need to explicitly show them during the interview, so it's worthwhile to invest in a good process that showcases these skills and gives you the best chance at success. I've described my process below.
 
 # Process
 Once you're given an initial problem statement, the process is as follows:
@@ -31,17 +31,19 @@ Interviewers will often give a vague initial problem statement to see how well t
 - Make hidden assumptions.
 - Over-focus on edge cases, especially for design problems.
 
+   Edge cases are usually good to understand when they'll have an important impact on the problem or solutions. This is especially for programming questions. But for design questions, you need to also prioritize based on priority, and sometimes you may need to deprioritize solving for some edge cases if they're less important.
+
 ## 2. List test cases
 *[Timebox to ~5min]*
 
-Coming up with test cases early is the best way to ensure you've done the [previous step](#1-understand-the-problem) correctly. Specifically, good test cases will help you identify the most difficult parts of the problem, give you a clear contract to design for, and show good initiative and critical thinking. The last thing you want is to start testing after you've implemented something and realize you've solved the wrong problem.
+Coming up with test cases early is the best way to ensure you've done the [previous step](#1-understand-the-problem) correctly. Specifically, good test cases will help you identify the most difficult parts of the problem, give you a clear contract to design for, and show good initiative and critical thinking. If you delay test cases until after you've implemented a solution, you might realize that you've solved the wrong problem (or missed an important requirement) only when it's too late.
 
 **Do**:
 - Add test cases for the common case and important edge cases.
 - Describe the test cases as a clear contract, ideally with a table of inputs --> expected outputs (or behaviors).
 
 **Don't**:
-- Be vague or hand-wavy about your tests (e.g. describing inputs without expected outputs).
+- Be vague or hand-wavy about your tests (e.g. describing inputs without expected outcomes).
 
 ## 3. Explore multiple design ideas
 *[Timebox to 10 min]*
@@ -54,7 +56,7 @@ It's rare that somebody would come up with an optimal solution to a problem from
 - Get a quick ACK from your interviewer before committing to a solution.
 
 **Don't**:
-- Immediately discount the "naive" solution. Not only does it serve as a useful baseline to compare to, but when compared with other options, it can actually end up being the best solution according to some criteria (e.g. simplicity or memory) and not that much worse in others (e.g. runtime).
+- Immediately dismiss the "naive" or obvious solution. Not only does it serve as a useful baseline to compare to, but when compared with other options, it can actually end up being the best solution according to some criteria (e.g. simplicity or memory) and not that much worse in others (e.g. runtime).
 - Spend too much time exploring esoteric variations. Once you have 2 or 3 solid approaches, consider picking one and moving on.
 - Get too deep in the weeds of any particular solution, unless the details are relevant for the big-O notation.
 
@@ -71,16 +73,16 @@ Once you find a promising high-level solution, try to divide the problem into sm
 **Don't**:
 - Spend too much time over-optimizing unnecessary details.
 
-    Get most of your solution working first before you start optimizing small things.
+    Instead, you should get most of your solution working first before you start optimizing small things.
 
 ## 5. Test your code
 *[Timebox to ~10 min]*
 
-Once you've implemented your solution, take the time to look for any obvious bugs or mistakes, then start to run through the test cases you've written down from step #1. Be detail-oriented with at least your first test case, and avoid skimming large parts whose answer you think you know.
+Once you've implemented your solution, take the time to look for any obvious bugs or mistakes, then start to run through the test cases you've written down from step #1. Be detail-oriented at least when running your first test case, and avoid skimming large parts whose answer you think you know. After that, you can go faster if needed.
 
 **Do**:
 - Keep track of variables and their values over time. Consider adding comments at the end of the line with the variable's current value, or a table with each variable's value over time.
-- Be detail-oriented while executing the code.
+- Be detail-oriented while executing the code (at least int the first test-case).
 - Take special note of edge cases (e.g. the first or last iteration of a loop).
 
 **Don't**:
